@@ -1,0 +1,458 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, tahoma, sans-serif;
+}
+body, html
+{
+    height: 100%;
+}
+/* start header */
+header
+{
+    height: 100%;
+    background-image: url("../img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .rgba
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(92, 77, 66, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container
+{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+/* start navbar */
+header .fixed
+{
+    position: fixed;
+    width: 85%;
+}
+header .nav
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 13px;
+}
+header .nav h2
+{
+    color: lightgray;
+    display: inline-block;
+    padding: 10px 0;
+    cursor: pointer;
+}
+header .nav h2:hover
+{
+    color: white;
+}
+header .nav ul
+{
+    list-style: none;
+    color: lightgray;
+    font-weight: bold;
+    float: right;
+    display: flex;
+}
+header .nav ul a
+{
+    text-decoration: none;
+    color: lightgray;
+}
+header .nav ul li
+{
+    padding: 15px;
+    cursor: pointer;
+}
+header .nav ul li a:hover
+{
+    color: white;
+}
+/* end navbar */
+
+/* start slider */
+header .rgba .flex
+{
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 95%;
+}
+header .rgba .flex .slider
+{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header .rgba .flex .slider h1
+{
+    text-transform: uppercase;
+    font-size: 3.4em;
+    text-align: center;
+    color: #FFFFFF;
+}
+header .rgba .flex .slider .border
+{
+    border: 1.5px solid #F4623A;
+    width: 5%;
+    margin: 0 auto;
+}
+header .rgba .flex .slider p
+{
+    font-size: 1.3em;
+    text-align: center;
+    color: lightgray;
+}
+header .rgba .flex .slider button
+{
+    color: white;
+    border: 0;
+    background: #F4623A;
+    outline: none;
+    padding: 20px 35px;
+    border-radius: 40px;
+    font-weight: 800;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .3s;
+}
+header .rgba .flex .slider button:hover
+{
+    background: #F24516;
+    transition: .3s;
+}
+/* end slider */
+
+/* end header */
+
+/* start article */
+article
+{
+    background: #F4623A;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+article .flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+article .flex section
+{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+article .flex section h2
+{
+    font-size: 2em;
+    text-align: center;
+    color: #FFFFFF;
+}
+article .flex section .border
+{
+    border: 1.5px solid white;
+    width: 5%;
+    margin: 0 auto;
+}
+article .flex section p
+{
+    font-size: 1.1em;
+    text-align: center;
+    color: lightgray;
+}
+article .flex section button
+{
+    border: 0;
+    background: white;
+    outline: none;
+    padding: 20px 35px;
+    border-radius: 40px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    transition: .3s;
+    cursor: pointer;
+}
+article .flex section button:hover
+{
+    background: #E2E6EA;
+    transition: .3s;
+}
+/* end article */
+/* start services */
+
+#services
+{
+    height: 520px;
+    display:flex;
+    justify-content: center;
+}
+section .parent-flex
+{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section .parent-flex .flex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 78%;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section .flex h2
+{
+    font-size: 2em;
+    font-weight: 100;
+}
+section .flex .border
+{
+    border: 1.5px solid #F4623A;
+    width: 5%;
+    position: relative;
+    top: -10px;
+}
+/* start icons */
+section .flex .services
+{
+    height: 58%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+section .flex .services .icons
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+section .flex .services .icons i
+{
+    color: #F4623A;
+    text-align: center;
+}
+section .flex .services .icons h3
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+section .flex .services .icons p
+{
+    text-align: center;
+    font-size: 1.1em;
+    color: gray;
+}
+/* end icons */
+
+/* services */
+section.portfolio
+{
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.portfolio .rgba
+{
+    width: 33.333%;
+    height: 50%;
+    background-color: #F4623A;
+}
+section.portfolio .links-portfolio
+{
+    width: 100%;
+    height: 100%;
+}
+section.portfolio .links-portfolio a
+{
+    text-decoration: none;
+}
+section.portfolio .links-portfolio a .activee
+{
+    display: block;
+}
+section.portfolio .links-portfolio a:hover h3
+{
+    display: block;
+    transition: .5s;
+}
+section.portfolio .links-portfolio a h3
+{
+    position: relative;
+    bottom: 151px;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+    transition: .5s;
+}
+section.portfolio .links-portfolio a h3:first-of-type
+{
+    color: lightgray;
+}
+
+section.portfolio .links-portfolio .portfolio-box img
+{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+section.portfolio .links-portfolio .portfolio-box .active, 
+section.portfolio .links-portfolio .portfolio-box img:hover
+{
+    opacity: .2;
+    transition: .3s;
+}
+
+
+/* end services */
+
+/* start download */
+
+.download
+{
+    background-color: #343a40;
+}
+.download .container .content
+{
+    padding: 107px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download .container .content h2
+{
+    color: white;
+    padding-bottom: 25px;
+}
+.download .container .content button
+{
+    border: 0;
+    background: white;
+    outline: none;
+    padding: 20px 35px;
+    border-radius: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    transition: .3s;
+    cursor: pointer;
+}
+.download .container .content button:hover
+{
+    background-color: lightgray;
+}
+/* end download */
+
+/* start contact */
+
+#contact
+{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+#contact .flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+#contact .flex section
+{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact .flex section h2
+{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+#contact .flex section .border
+{
+    border: 1.5px solid #F4623A;
+    width: 5%;
+    margin: 0 auto;
+}
+#contact .flex section p
+{
+    font-size: 1.1em;
+    text-align: center;
+    color: gray;
+}
+#contact .flex section .call-email
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+#contact .flex section .call-email i
+{
+    color: gray;
+    
+}
+#contact .flex section .communication
+{
+    width: 61%;
+    display: flex;
+    justify-content: space-around;
+}
+#contact .flex section .communication .number
+{
+
+}
+#contact .flex section .communication a
+{
+    text-decoration: none;
+}
+#contact .flex section .communication a .email
+{
+    position: relative;
+    left: 55px;
+    color:#F4623A;
+}
+/* end contact */
+/* start footer */
+
+footer
+{
+    background: #d0d6db;
+}
+footer p
+{
+    color: rgb(105, 97, 97);
+    text-align: center;
+    padding: 45px 0;
+}
+
+/* end footer */
